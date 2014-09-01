@@ -21,6 +21,7 @@
 		2840EABD19B4C5A100EE4E82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840EA9F19B4C5A100EE4E82 /* UIKit.framework */; };
 		2840EAC519B4C5A100EE4E82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2840EAC319B4C5A100EE4E82 /* InfoPlist.strings */; };
 		2840EAC719B4C5A100EE4E82 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840EAC619B4C5A100EE4E82 /* Git_TestTests.m */; };
+		2840EAD219B4C94D00EE4E82 /* JRETest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840EAD119B4C94D00EE4E82 /* JRETest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2840EAC219B4C5A100EE4E82 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		2840EAC419B4C5A100EE4E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2840EAC619B4C5A100EE4E82 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2840EAD019B4C94D00EE4E82 /* JRETest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRETest.h; sourceTree = "<group>"; };
+		2840EAD119B4C94D00EE4E82 /* JRETest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRETest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2840EAAD19B4C5A100EE4E82 /* Main.storyboard */,
 				2840EAB019B4C5A100EE4E82 /* JREViewController.h */,
 				2840EAB119B4C5A100EE4E82 /* JREViewController.m */,
+				2840EAD019B4C94D00EE4E82 /* JRETest.h */,
+				2840EAD119B4C94D00EE4E82 /* JRETest.m */,
 				2840EAB319B4C5A100EE4E82 /* Images.xcassets */,
 				2840EAA219B4C5A100EE4E82 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2840EAAC19B4C5A100EE4E82 /* JREAppDelegate.m in Sources */,
+				2840EAD219B4C94D00EE4E82 /* JRETest.m in Sources */,
 				2840EAB219B4C5A100EE4E82 /* JREViewController.m in Sources */,
 				2840EAA819B4C5A100EE4E82 /* main.m in Sources */,
 			);
